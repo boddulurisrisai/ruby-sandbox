@@ -1,5 +1,5 @@
 pp "Hello Wordld!"
-
+require "pry-byebug"
 require "./goodbye.rb"
 require "active_support/all"
 
@@ -23,3 +23,5 @@ pp "equipment".pluralize
 pp "tables".singularize    
 pp "rubies".singularize    
 pp "equipment".singularize
+
+byebug
